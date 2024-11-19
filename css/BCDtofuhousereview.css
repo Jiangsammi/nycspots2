@@ -1,0 +1,127 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  .restaurant-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  #reviews-summary {
+    margin-top: 30px;
+  }
+  
+  .rating-summary {
+    font-size: 1.1em;
+  }
+  
+  .rating-breakdown span {
+    display: block;
+  }
+  
+  #individual-reviews .review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #individual-reviews .review h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  #individual-reviews .review span {
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  #add-review form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  #add-review label {
+    font-weight: bold;
+  }
+  
+  #add-review select,
+  #add-review textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
